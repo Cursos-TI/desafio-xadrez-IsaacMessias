@@ -110,7 +110,9 @@ int main() {
         case 'H'://para torre usei do-while
         case 'h':
                 
-            int x, y, z;
+            int x, y, z; //variavel "x" para a movimentação lateral
+                         //variavel "y" para a solicitar a movimentação vertical
+                         //variavel "z" para repetir o loop interno.
 
             printf("Você escolheu o Cavalo:\n");
             printf("Escolha  a direção:\n1. Cima\n2. Baixo\n");
