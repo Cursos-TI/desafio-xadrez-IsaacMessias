@@ -56,12 +56,13 @@ int main() {
             int x, y, z;
 
             printf("Você escolheu o Cavalo:\n");
-            printf("Esocolha  a direção: 1. Cima - 2. Baixo\n");
+            printf("Escolha  a direção:\n1. Cima\n 2. Baixo\n");
             scanf("%d", &y);
-            printf("Escolha  o movimento finel: 1. Esquerda - 2. Direita\n");
+            printf("Escolha  o movimento finel:\n1. Esquerda\n2. Direita\n");
             scanf("%d", &move);
 
-            for (int x = 1; x <= 1; x++){
+            for (int x = 1; x <= 1; x++)
+            {
                 for(z = 1 ; z <= 2; z++)
                 {                    
                     if(y == 1){
@@ -69,7 +70,6 @@ int main() {
                     }else{                       
                         printf("Baixo\n");
                     }
-                    
                 }
                     if (move == 1){
                         printf("Esquerda\n");
